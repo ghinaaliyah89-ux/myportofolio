@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Ghina</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+     <script src="https://unpkg.com/feather-icons"></script>
+
+     <Link  rel="stylesheet" href="css/style.css" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <script>
+        function downloadCV() {
+            const link = document.createElement("a");
+            link.href = "";
+            link.download = "sol.4ce.pdf";
+            link.click();
+        }
+    </script>
+
+        
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <h2>Ghina</h2>
+      <div class="nav-item">
+        <a href="#hero">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skill"> Skill</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a> |
+        <a href="https://www.instagram.com/"><i data-feather="instagram"></i></a>
+        <a href="https://www.tiktok.com/"><i data-feather="tiktok"></i></a>
+        <a href="https://twitter.com/"><i data-feather="twitter"></i></a>
+        <a href="https://github.com/ghiinlyaa-design"><i data-feather="github"></i></a>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <section id="hero" class="hero">
+    <section class="Hero-section"></section>
+        <h1 class="Home-title">My Portofolio</h1>
+            <h2 class="name">Ghina Aliyah Nurhanifah</h2>
+            <p class="sub">——— Portofolio Website ———</p>
+
+            <button class="cv-btn" onclick="downloadCV()">Download CV</button>
+            
+            <div class="bottom-text">
+                <p class="left">UI / UX Developer &<br>Front-end Developer</p>
+                <p class="right">“Designing with purpose,<br>coding with passion.”</p>
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="about" class="about-section">
+        <h1 class="about-title">About Me</h1>
+
+    <div class="about-box">
+        <div class="about-image">
+            <img src="image/ghina.jpg" alt="Ghina">
+        </div>
+
+        <div class="about-text">
+            <p>
+                Halo! Saya Ghina Aliyah Nurhanifah, seorang UI/UX Designer dan Front-End Developer dari Depok, Indonesia.
+                Saya berfokus pada pembuatan desain web yang fungsional, estetis, dan berorientasi pada pengguna.
+                Terampil menggunakan Figma, HTML, CSS, dan JavaScript, saya siap berkolaborasi untuk mewujudkan
+                produk digital yang menarik dan bermanfaat.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- MY SKILL -->
+<section id="skill" class="skill-section">
+    <h1 class="skill-title">My Skill</h1>
+
+    <div class="skill-container">
+
+        <div class="skill-box">
+            <h2>Design Skill</h2>
+            <div class="icons">
+                <img src="img/figma.jpeg">
+                <img src="img/canva.jpeg">
+                <img src="img/AI Logo.jpeg">
+                <img src="img/PS.jpeg">
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <h2>Coding Skill</h2>
+            <div class="icons">
+                <img src="img/HTML.jpeg">
+                <img src="img/CSS.jpeg">
+                <img src="img/JAVA SCRIPT.jpeg">
+                <img src="img/python logo.jpeg">
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--MY PROJECT-->
+<section id="project" class="project-section"></section>
+<section class="container">
+        <h1 class="title">My Project</h1>
+
+        <!-- PROJECT 1 -->
+        <div class="project-box">
+            <div class="project-image">
+                <img src="image/dino.png" alt="project1">
+            </div>
+            <div class="project-text">
+                <h2>project 1</h2>
+                <p>Sebuah ilustrasi karakter dino lucu yang dibuat menggunakan adobe illustrator. Fokus pada warna lembut dan ekspresi menggemaskan untuk latihan desain karakter.</p>
+                <button>see project</button>
+            </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-box">
+            <div class="project-image">
+                <img src="image/duolingo.jpg" alt="project 2">
+            </div>
+            <div class="project-text">
+                <h2>Project 2</h2>
+                <p>Duolingo Redesign – Redesign tampilan aplikasi Duolingo agar lebih modern dan ramah pengguna. Didesain di Figma dengan fokus pada ikon, warna, dan tata letak yang bersih.</p>
+                <button>see project</button>
+            </div>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-box">
+            <div class="project-image">
+                <img src="image/website.jpg" alt="kota padang">
+            </div>
+            <div class="project-text">
+                <h2>Project</h2>
+                <p>Website Kota Padang. Website sederhana berisi informasi wisata dan budaya Kota Padang. Dibuat menggunakan HTML, CSS, dan JavaScript sebagai latihan membuat tampilan web statis.</p>
+                <button>see project</button>
+            </div>
+        </div>
+
+</section>
+<!--CONACT-->
+<section id="contact" class="contact">
+
+    <div class="contact-title">Contact</div>
+
+    <div class="contact-box">
+
+        <form action="https://formsubmit.co/ghinaghinn2@gmail.com" method="post" class="contact-form">
+            <input type="text" id="email" placeholder="email" required>
+            <input type="text" id="name" placeholder="name" required>
+            <input type="text" id="message" placeholder="message" required>
+            <button type="submit">send</button>
+        </form>
+
+        <div class="contact-info">
+            <div class="left-info">
+                <p>Name : Ghina Aliyah Nurhanifah</p>
+                <p>Email : ghinilyaa@gmail.com</p>
+                <p>No Telpon : 62+ 831 8888 8888</p>
+            </div>
+
+            <div class="right-info">
+                <p>Instagram : Ghina.18</p>
+                <p>Tik tok : Ghina.18</p>
+                <p>Twitter : Ghina.18</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+    <script>
+      feather.replace();
+    </script>
+</body>
+</html>
