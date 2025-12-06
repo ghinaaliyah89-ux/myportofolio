@@ -570,7 +570,7 @@ button:hover {
   
   .nav-item {
       flex-wrap: wrap;
-      gap: 5px;
+      gap: 25px;
       justify-content: flex-start;
       width: 100%;
   }
